@@ -22,7 +22,8 @@
 
 
 n = int(input())
-if (n % 4 == 0) and (n % 100 != 0) or (n % 400):
-	print('Високосный')
+A = int (input())
+if ((A%4 == 0 and A%100 != 0) or (A%400 == 0)):
+  print('Високосный')
 else:
-	print("Обычный")	
+  print('Обычный')
